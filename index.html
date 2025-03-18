@@ -34,8 +34,10 @@
                     class="cursor-pointer px-6 py-3 rounded-3xl bg-gray-500 text-white font-semibold w-1/2 transition duration-300 hover:bg-gray-800 active:bg-gray-950 ">
                     <button class="uppercase">Galéria</button>
                 </a>
-                <button
-                    class="cursor-pointer px-6 py-3 rounded-3xl bg-gray-500 text-white uppercase font-semibold w-1/2 transition duration-300 hover:bg-gray-800 active:bg-gray-950 ">Visszajelzések</button>
+                <a href="#reviews"
+                    class="cursor-pointer px-6 py-3 rounded-3xl bg-gray-500 text-white font-semibold w-1/2 transition duration-300 hover:bg-gray-800 active:bg-gray-950 ">
+                    <button class="uppercase">Visszajelzések</button>
+                </a>
                 <button
                     class="cursor-pointer px-6 py-3 rounded-3xl bg-gray-500 text-white uppercase font-semibold w-1/2 transition duration-300 hover:bg-gray-800 active:bg-gray-950 ">Kapcsolat</button>
             </div>
@@ -105,14 +107,104 @@
             </div>
             <!-- Navigation Buttons -->
             <a id="prev" onclick="changeSlides(-1)"
-                class="cursor-pointer absolute top-1/2 py-1.5 px-3 -mt-3.5 bg-slate-200 rounded-2xl">&#10094;</a>
+                class="cursor-pointer absolute top-1/2 py-1.5 px-3 -mt-3.5 ml-1.5 bg-slate-200 rounded-2xl">&#10094;</a>
             <a id="next" onclick="changeSlides(1)"
-                class="cursor-pointer absolute top-1/2 right-0 py-1.5 px-3 -mt-3.5 bg-slate-200 rounded-2xl">&#10095;</a>
+                class="cursor-pointer absolute top-1/2 right-0 py-1.5 px-3 -mt-3.5 mr-1.5 bg-slate-200 rounded-2xl">&#10095;</a>
         </div>
     </section>
-    <section id="reviews" class="w-screen h-fit"></section>
-    <section id="contact" class="w-screen h-fit"></section>
+    <section id="reviews" class="w-screen h-fit p-4 bg-slate-300">
+        <h1 class="text-4xl uppercase font-light text-gray-900 tracking-tighter mb-5 mt-5 text-center">Visszajelzések
+        </h1>
+        <div id="reviews-container" class="bg-slate-700  text-sky-100 w-[75] h-fit p-7.5 rounded-xl">
+            <h3 class="text-2xl uppercase tracking-tight">Dóra és Peti</h3>
+            <h4 class="mb-3.5">2017.08.04</h4>
+            <p class="mb-5 text-sm">Nagyon szépen köszönjük Endre! Voltak hirtelen jött események ugyan, de kiválóan
+                rögtönöztél! Szívből
+                ajánlunk téged minden ifjú párnak!</p>
+            <h3 class="text-2xl uppercase tracking-tight">Szandi és Milán</h3>
+            <h4 class="mb-3.5">2018.09.05</h4>
+            <p class="mb-5 text-sm">Kedves Endre! Nem csak ceremóniamester voltál nálunk, hanem mint barát.
+                Felejthetetlen volt
+                minden.</p>
+            <h3 class="text-2xl uppercase tracking-tight">Melinda és Attila</h3>
+            <h4 class="mb-3.5">2019.05.18</h4>
+            <p class="mb-5 text-sm">Kiváló szervezés, tökéletes hangulatteremtés. A vendégek, a család is nagyon
+                megkedvelt az
+                este folyamán.</p>
+            <h3 class="text-2xl uppercase tracking-tight">Reni és Bazsi</h3>
+            <h4 class="text-xl mb-3.5">2019.06.22</h4>
+            <p class="mb-5">A forgatókönyvet nem kellett nagyon használni, mert ránk szakadt az ég. De egyből tudtad mit
+                és hogyan kell tenni, így fennakadás nélkül zajlottak az események. Szívből ajánljuk Endrét!</p>
+            <h3 class="text-2xl uppercase tracking-tight">Barbi és Bandi</h3>
+            <h4 class="text-xl mb-3.5">2019.08.31.</h4>
+            <p class="mb-5">Nagyon szépen köszönjük, hogy mellettünk voltál és mindenben segítettél. A lánykéréstől a
+                menyecsketáncig minden percét élveztük a napnak.</p>
+            <h3 class="text-2xl uppercase tracking-tight">Nóri és Robi</h3>
+            <h4 class="text-xl mb-3.5">2019.09.06.</h4>
+            <p class="mb-5">Szuper volt! Ezt a szervezést kevesen tudták volna megcsinálni, de nemhiába, téged
+                választottunk. Nem bántuk meg, nagyon szépen köszönjük Endre!</p>
+            <h3 class="text-2xl uppercase tracking-tight">Afrodité és Roland</h3>
+            <h4 class="text-xl mb-3.5">2019.12.28.</h4>
+            <p class="mb-5">Abszolút meglepetés voltál nekünk kedve Endre. A szülőbúcsúztatástól a mennyecsketáncig
+                olyan szuper volt minden, hogy csak ajánlani tudunk minden ifjú párnak. Köszönjük!</p>
+            <h3 class="text-2xl uppercase tracking-tight">Ági és Zoli</h3>
+            <h4 class="text-xl mb-3.5">2020.02.15.</h4>
+            <p class="mb-5">Sziasztok! Endrét csak ajánlani tudom! A félmondatos irányba tereléstől a hosszabb, jópofa
+                monológokig széles regiszterben mozog. Nagyon megbízható és ami a leglényegesebb vidám - amilyennek egy
+                esküvőnek amúgy is lennie kell! 😉 Akció: ha MOST keltek egybe, akár az aranylakodalmat is elvállalhatja
+                - de az ezüstöt több eséllyel! 😉</p>
+            <h3 class="text-2xl uppercase tracking-tight">Liza és Patrik</h3>
+            <h4 class="text-xl mb-3.5">2020.07.11.</h4>
+            <p class="mb-5">Csak a szépre emlékezünk! :) Volt egy nagy lélekromboló jelenet, tudod..... Endre! De a buli
+                ment, sőt, a tetőfokára hágott! Köszönjük!</p>
+            <h3 class="text-2xl uppercase tracking-tight">Emese és Dani</h3>
+            <h4 class="text-xl mb-3.5">2020.09.05.</h4>
+            <p class="mb-5">Drága Endre! Többszöri találkozó után olyan voltál velünk, mint a vendégeinkkel. Nevető,
+                rugalmas, megunhatatlan. Gyere legközelebb is, csak több esküvőt nem tervezünk. Ajánlunk sok
+                szeretettel! :) </p>
+            <h3 class="text-2xl uppercase tracking-tight">DJ Tomix (Benkucs Tamás)</h3>
+            <h4 class="text-xl mb-3.5">2021.07.24.</h4>
+            <p class="mb-5">De hatalmas buli volt! Köszi a részvételed szuper voltál!</p>
 
+            <h3 class="text-2xl uppercase tracking-tight">Mariett és Zsolt</h3>
+            <h4 class="text-xl mb-3.5">2021.08.14.</h4>
+            <p class="mb-5">Nagyon köszi mindent Endre. 😊 Csak ismételni tudom magam, nálad jobb CM választásunk nem is
+                lehetett volna! Szuper profi vagy és baromi jófej! Imádtuk az esküvő minden percét!</p>
+
+            <h3 class="text-2xl uppercase tracking-tight">Gyöngyi és Balázs</h3>
+            <h4 class="text-xl mb-3.5">2021.10.09.</h4>
+            <p class="mb-5">Nagyon örülünk ,nagyon jól éreztünk magunkat. 🥰🥰 A legjobbat kaptuk meg a te személyedben!
+            </p>
+
+            <h3 class="text-2xl uppercase tracking-tight">Liza és Adrián</h3>
+            <h4 class="text-xl mb-3.5">2022.06.04.</h4>
+            <p class="mb-5">Nagyon jól alakult minden szerencsére, és ez neked köszönhető!!
+            </p>
+
+            <h3 class="text-2xl uppercase tracking-tight">Réka és Peti</h3>
+            <h4 class="text-xl mb-3.5">2022.07.01.</h4>
+            <p class="mb-5">Nagyon köszönünk mindent Endre, fantasztikus voltál!</p>
+
+            <h3 class="text-2xl uppercase tracking-tight">Szekeres Péter DJ</h3>
+            <h4 class="text-xl mb-3.5">2022.08.13.</h4>
+            <p class="mb-5">Várom, hogy újra együtt dolgozzunk. Azóta sem volt egyik lagziban sem hozzád hasonló CM. :)
+            </p>
+
+            <h3 class="text-2xl uppercase tracking-tight">Réka és Norbi</h3>
+            <h4 class="text-xl mb-3.5">2022.09.04.</h4>
+            <p class="mb-5">Köszönjük szépen a munkádat és a jelenletedet, nagyon jól menedzseltél mindent, nagyon
+                szimpatikus voltal mindenkinek,pont ahogy elképzeltük.</p>
+
+            <h3 class="text-2xl uppercase tracking-tight">Veronika, vendég</h3>
+            <h4 class="text-xl mb-3.5">2023.05.13.</h4>
+            <p class="mb-5">Nagyon jól éreztük magunkat a családdal, igazán szuper lagzi volt. Nagyon jó és profi volt a
+                ceremóniamester.
+
+            </p>
+
+        </div>
+    </section>
+    <section id="contact" class="w-screen h-fit"></section>
     <script src="/JS/script.js"></script>
 </body>
 
