@@ -53,6 +53,20 @@ body {
     animation: gallerySlideIn 0.9s forwards cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+.hiddenContent {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-150px);
+    transition: all 1s ease-in-out;
+}
+
+.visibleContent {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
 @keyframes gallerySlideIn {
     from {
         opacity: 0;

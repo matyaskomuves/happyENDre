@@ -37,3 +37,20 @@ function resetAutoSlide() {
     clearInterval(slideInterval); // Stopping the current interval
     startAutoSlide(); // Restart auto-sliding
 }
+
+//Intersectino Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visibleContent');
+        } else {
+            entry.target.classList.remove('visibleContent');
+        }
+    });
+}, {
+    threshold: 0.1, // 10% intersection threshold
+});
+
+const hiddenElements = document.querySelectorAll('.hiddenContent');
+hiddenElements.forEach((el) => observer.observe(el));
