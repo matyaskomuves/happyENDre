@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    transition: background-image 0.4s ease-in;
+    /* transition: background-image 0.4s ease-in; */
 }
 
 /* Animations */
@@ -107,7 +107,7 @@ body {
 
 @media (max-width: 576px) {
     #hero {
-        background-image: url(/images/background_hero_mobile.jpeg);
+        background-image: url(/images/background_hero_mobile.jpeg) !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
