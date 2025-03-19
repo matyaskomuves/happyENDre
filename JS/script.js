@@ -48,8 +48,6 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.remove('visibleContent');
         }
     });
-}, {
-    threshold: 0.1, // 10% intersection threshold
 });
 
 const hiddenElements = document.querySelectorAll('.hiddenContent');
